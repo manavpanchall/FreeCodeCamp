@@ -1,0 +1,48 @@
+.{
+    margin: 0cm;
+    padding: 0cm;
+}
+h1{
+    color: white;
+}
+.box{
+    color: white;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background: grey;
+    background: center;
+    background-image: url(https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    position: sticky;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    width: 500px;
+    margin: auto;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    max-width: 500px;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.input-element{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+select{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
